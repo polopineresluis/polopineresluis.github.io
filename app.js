@@ -34,8 +34,9 @@
     if (estado === 8) {
       estado = juego.previo
     }
-    elem.src = "img/imagen" + estado + ".png";
-  
+    elem.src = "../img/imagen" + estado + ".PNG";
+
+    //
     // Creamos las letras adivinadas
     let palabra = juego.palabra
     let adivinado = juego.adivinado
